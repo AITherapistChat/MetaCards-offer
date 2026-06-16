@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Метакарты — психологические практики с метафорическими картами</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Montserrat', sans-serif; background: #FBF7F0; color: #4a443c; line-height: 1.65; font-size: 16px; }
+    a { color: #A97F32; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .wrap { max-width: 680px; margin: 0 auto; padding: 0 20px; }
+    .hero {
+      text-align: center; padding: 64px 20px 44px;
+      background: radial-gradient(ellipse at 50% 0%, #F3E9D8 0%, #FBF7F0 72%);
+    }
+    .hero .emoji { font-size: 50px; display: block; margin-bottom: 14px; }
+    .hero h1 { font-family: 'Cormorant Garamond', serif; font-size: 2.4rem; font-weight: 600; color: #2A2520; margin-bottom: 10px; }
+    .hero p { font-size: 1.02rem; color: #7B7167; max-width: 500px; margin: 0 auto; }
+    .section { border-top: 1px solid #ECE0CC; padding: 32px 0; }
+    h2 { font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; font-weight: 600; color: #2A2520; margin-bottom: 16px; }
+    .cards { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    @media (max-width: 480px) { .cards { grid-template-columns: 1fr; } }
+    .pcard { border: 1px solid #E6D2A0; border-radius: 16px; padding: 16px 18px; background: #FFFDF8; }
+    .pcard .name { font-weight: 700; font-size: 0.98rem; color: #2A2520; margin-bottom: 4px; }
+    .pcard .desc { font-size: 0.85rem; color: #7B7167; }
+    .plans { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    @media (max-width: 480px) { .plans { grid-template-columns: 1fr; } }
+    .plan { border: 1px solid #E6D2A0; border-radius: 16px; padding: 18px; background: #FFFDF8; }
+    .plan.premium { border-color: #C9A24B; background: linear-gradient(135deg, #FFF7E6, #FFFDF8); }
+    .plan h3 { font-weight: 700; margin-bottom: 10px; color: #2A2520; }
+    .plan ul { list-style: none; padding: 0; }
+    .plan ul li { font-size: 0.88rem; color: #6b6358; padding: 4px 0 4px 18px; position: relative; }
+    .plan ul li::before { content: '—'; position: absolute; left: 0; color: #C9A24B; }
+    .price-block { display: flex; flex-wrap: wrap; gap: 14px; }
+    .price-card { flex: 1; min-width: 160px; border: 1px solid #E6D2A0; border-radius: 16px; padding: 20px; background: #FFFDF8; text-align: center; }
+    .price-card.best { border-color: #C9A24B; background: linear-gradient(135deg, #FFF7E6, #FFFDF8); }
+    .price-card .badge { display: inline-block; font-size: 0.68rem; font-weight: 700; color: #A97F32; border: 1px solid #C9A24B; border-radius: 20px; padding: 2px 10px; margin-bottom: 10px; letter-spacing: 0.5px; }
+    .price-card .amount { font-family: 'Cormorant Garamond', serif; font-size: 2rem; font-weight: 700; color: #2A2520; }
+    .price-card .period { font-size: 0.85rem; color: #7B7167; margin-top: 2px; }
+    .price-card .note { margin-top: 10px; font-size: 0.76rem; color: #9a9082; }
+    p { color: #6b6358; margin-bottom: 8px; }
+    footer { text-align: center; padding: 32px 20px; border-top: 1px solid #ECE0CC; font-size: 0.8rem; color: #9a9082; }
+  </style>
+</head>
+<body>
+
+<div class="hero">
+  <span class="emoji">🃏</span>
+  <h1>Метакарты</h1>
+  <p>Психологические практики с метафорическими ассоциативными картами и тёплым AI-проводником. Анонимно, без регистрации.</p>
+</div>
+
+<div class="wrap">
+
+  <div class="section">
+    <h2>Практики</h2>
+    <div class="cards">
+      <div class="pcard"><div class="name">Как я сейчас</div><div class="desc">Прожить состояние и найти опору</div></div>
+      <div class="pcard"><div class="name">Свободный выбор</div><div class="desc">Разложить колоду и выбрать свою карту</div></div>
+      <div class="pcard"><div class="name">Отношения</div><div class="desc">Исследовать связь с важным человеком</div></div>
+      <div class="pcard"><div class="name">Страхи и самооценка</div><div class="desc">Что мешает и как принять себя</div></div>
+      <div class="pcard"><div class="name">Мои части и внутренний ребёнок</div><div class="desc">Услышать свои внутренние части</div></div>
+      <div class="pcard"><div class="name">Цель и путь</div><div class="desc">Куда я хочу и что мешает</div></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Бесплатно и Премиум</h2>
+    <div class="plans">
+      <div class="plan">
+        <h3>Бесплатно</h3>
+        <ul>
+          <li>Пробный период 24 часа — полный доступ</li>
+          <li>Далее 5 сообщений с AI-проводником в день</li>
+          <li>Все карты колоды и базовые практики</li>
+        </ul>
+      </div>
+      <div class="plan premium">
+        <h3>✦ Премиум</h3>
+        <ul>
+          <li>Безлимитный диалог с AI-проводником</li>
+          <li>Все практики и расклады</li>
+          <li>Дневник практик без ограничений</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Стоимость</h2>
+    <div class="price-block">
+      <div class="price-card"><div class="amount">299 ₽</div><div class="period">30 дней</div><div class="note">Через Robokassa.<br>Без автопродления.</div></div>
+      <div class="price-card"><div class="amount">699 ₽</div><div class="period">90 дней</div><div class="note">Без автопродления.</div></div>
+      <div class="price-card best"><div class="badge">ВЫГОДНЕЕ</div><div class="amount">1 990 ₽</div><div class="period">365 дней</div><div class="note">Без автопродления.</div></div>
+    </div>
+    <p style="margin-top:12px; font-size:0.82rem;">Актуальная стоимость всегда отображается в приложении перед оплатой.</p>
+  </div>
+
+  <div class="section">
+    <h2>Условия предоставления услуги</h2>
+    <p>Подписка открывает доступ к расширенным функциям приложения «Метакарты». После успешной оплаты доступ активируется автоматически при возврате в приложение.</p>
+    <p>Срок действия: 30, 90 или 365 дней с момента активации. По истечении срока бесплатные функции сохраняются в полном объёме.</p>
+  </div>
+
+  <div class="section">
+    <h2>Важно</h2>
+    <p>Приложение носит психологически-просветительский и развлекательный характер. Практики с метафорическими картами и ответы AI-проводника <strong>не являются медицинской, психотерапевтической или иной профессиональной помощью</strong> и не заменяют консультацию специалиста. При остром состоянии обратитесь к врачу или психологу.</p>
+  </div>
+
+  <div class="section">
+    <h2>Политика возврата</h2>
+    <p>В соответствии со ст. 26.1 Закона РФ «О защите прав потребителей» возврат оплаты за цифровые услуги надлежащего качества не производится.</p>
+    <p>При технических проблемах пишите на <a href="mailto:aitherapisthelp@gmail.com">aitherapisthelp@gmail.com</a> — каждый случай рассматривается индивидуально.</p>
+  </div>
+
+  <div class="section">
+    <h2>Конфиденциальность</h2>
+    <p>Мы не собираем личные данные: имя, телефон, email, геолокация не запрашиваются. Диалоги с проводником и заметки практик хранятся на вашем устройстве. Приложение работает анонимно — регистрация не требуется.</p>
+    <p><a href="privacy.html">Политика конфиденциальности</a> &nbsp;·&nbsp; <a href="user-agreement.html">Пользовательское соглашение (оферта)</a></p>
+  </div>
+
+  <div class="section">
+    <h2>Поддержка</h2>
+    <p>Email: <a href="mailto:aitherapisthelp@gmail.com">aitherapisthelp@gmail.com</a></p>
+    <p>Telegram: <a href="https://t.me/AI_Therapist_APP" target="_blank">@AI_Therapist_APP</a></p>
+    <p style="font-size:0.82rem;">Срок ответа: до 10 рабочих дней.</p>
+  </div>
+
+  <div class="section">
+    <h2>Реквизиты продавца</h2>
+    <p>Орлов Виктор Геннадьевич<br>
+    ИНН: 583515875490<br>
+    Статус: самозанятый<br>
+    Приём платежей: Robokassa (ООО «Пэйлэнд»)</p>
+  </div>
+
+</div>
+
+<footer>© 2026 Метакарты &nbsp;·&nbsp; Орлов В.Г., самозанятый</footer>
+
+</body>
+</html>
